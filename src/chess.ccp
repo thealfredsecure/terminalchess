@@ -49,3 +49,11 @@ for(int k=0; i<=5; j++)
    for(int k=0; j<=5; j++)
 }
 cin >> b[k][l];
+
+
+// Opponents Dying
+if move(a) == move(b)
+     return move(a);
+
+else
+      return -1;
