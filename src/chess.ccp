@@ -12,6 +12,9 @@ for CharacterRange in range 0-10;
 for(int c=0; c<=5; c++)
 CharacterRange[c];
 
+if(int move == pawn)
+   return int P;
+
 
 //Move's
 if(int move == left)
