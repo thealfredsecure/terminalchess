@@ -15,6 +15,10 @@ CharacterRange[c];
 if(int move == pawn)
    return int P;
 
+else
+   return -1;
+
+
 
 //Move's
 if(int move == left)
