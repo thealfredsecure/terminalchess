@@ -1,6 +1,7 @@
 // Calling "header.h" file to get required headers
 header.h
 
+
 // Player's
 int a, b;
 
@@ -17,7 +18,6 @@ if(int move == pawn)
 
 else
    return -1;
-
 
 
 //Move's
