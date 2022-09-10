@@ -34,6 +34,14 @@ else (int move == back)
    return int B;
 
 
+// Illegal Move (invalid input move)
+if move == L || R || F || B;
+      return 1;
+
+else
+      return -1;
+
+
 //5×5 Matrix
 int a[5][5];
 for(int i=0; i<=5; j++)
