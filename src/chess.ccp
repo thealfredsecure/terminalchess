@@ -3,7 +3,7 @@ header.h
 
 
 // Player's
-int a, b;
+int a[5][5], b[5][5];
 
 
 // Character Name
@@ -35,10 +35,17 @@ else (int move == back)
 
 
 //5×5 Matrix
-int m[5][5];
+int a[5][5];
 for(int i=0; i<=5; j++)
 { 
    for(int j=0; j<=5; j++)
 }
-cin >> m[i][j];
+cin >> a[i][j];
    
+
+int b[5][5];
+for(int k=0; i<=5; j++)
+{ 
+   for(int k=0; j<=5; j++)
+}
+cin >> b[k][l];
