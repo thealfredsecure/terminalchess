@@ -4,6 +4,9 @@ header.h
 // Player's
 int a, b;
 
+
+int character_name, move;
+
 //5×5 Matrix
 int m[5][5];
 for(int i=0; i<=5; j++)
