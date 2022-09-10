@@ -1,4 +1,4 @@
-//Calling "header.h" file to get required headers
+// Calling "header.h" file to get required headers
 header.h
 
 // Player's
@@ -6,22 +6,25 @@ int a, b;
 
 
 // Character Name
-int P;
-for P in range 0-10;
+int CharacterRange[5];
+for CharacterRange in range 0-10;
+
+for(int c=0; c<=5; c++)
+CharacterRange[c];
 
 
 //Move's
 if(int move == left)
-return int L;
+   return int L;
 
 else if(int move == right)
-return int R;
+   return int R;
 
 else if(int move == front)
-return int F;
+   return int F;
 
 else (int move == back)
-return int B;
+   return int B;
 
 
 //5×5 Matrix
